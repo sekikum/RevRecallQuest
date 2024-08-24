@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84728C8F2C7A31F6004D1470 /* RevRecallQuestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84728C8E2C7A31F6004D1470 /* RevRecallQuestApp.swift */; };
+		84728C912C7A31F7004D1470 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84728C902C7A31F7004D1470 /* ContentView.swift */; };
+		84728C932C7A31F9004D1470 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84728C922C7A31F9004D1470 /* Assets.xcassets */; };
+		84728C962C7A31F9004D1470 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84728C952C7A31F9004D1470 /* Preview Assets.xcassets */; };
+		84728CA02C7A31F9004D1470 /* RevRecallQuestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84728C9F2C7A31F9004D1470 /* RevRecallQuestTests.swift */; };
+		84728CAA2C7A31F9004D1470 /* RevRecallQuestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84728CA92C7A31F9004D1470 /* RevRecallQuestUITests.swift */; };
+		84728CAC2C7A31F9004D1470 /* RevRecallQuestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84728CAB2C7A31F9004D1470 /* RevRecallQuestUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84728C9C2C7A31F9004D1470 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84728C832C7A31F6004D1470 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84728C8A2C7A31F6004D1470;
+			remoteInfo = RevRecallQuest;
+		};
+		84728CA62C7A31F9004D1470 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84728C832C7A31F6004D1470 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84728C8A2C7A31F6004D1470;
+			remoteInfo = RevRecallQuest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84728C8B2C7A31F6004D1470 /* RevRecallQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RevRecallQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84728C8E2C7A31F6004D1470 /* RevRecallQuestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevRecallQuestApp.swift; sourceTree = "<group>"; };
+		84728C902C7A31F7004D1470 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84728C922C7A31F9004D1470 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84728C952C7A31F9004D1470 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84728C9B2C7A31F9004D1470 /* RevRecallQuestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RevRecallQuestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84728C9F2C7A31F9004D1470 /* RevRecallQuestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevRecallQuestTests.swift; sourceTree = "<group>"; };
+		84728CA52C7A31F9004D1470 /* RevRecallQuestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RevRecallQuestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84728CA92C7A31F9004D1470 /* RevRecallQuestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevRecallQuestUITests.swift; sourceTree = "<group>"; };
+		84728CAB2C7A31F9004D1470 /* RevRecallQuestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevRecallQuestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84728C882C7A31F6004D1470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84728C982C7A31F9004D1470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84728CA22C7A31F9004D1470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84728C822C7A31F6004D1470 = {
+			isa = PBXGroup;
+			children = (
+				84728C8D2C7A31F6004D1470 /* RevRecallQuest */,
+				84728C9E2C7A31F9004D1470 /* RevRecallQuestTests */,
+				84728CA82C7A31F9004D1470 /* RevRecallQuestUITests */,
+				84728C8C2C7A31F6004D1470 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84728C8C2C7A31F6004D1470 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84728C8B2C7A31F6004D1470 /* RevRecallQuest.app */,
+				84728C9B2C7A31F9004D1470 /* RevRecallQuestTests.xctest */,
+				84728CA52C7A31F9004D1470 /* RevRecallQuestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84728C8D2C7A31F6004D1470 /* RevRecallQuest */ = {
+			isa = PBXGroup;
+			children = (
+				84728C8E2C7A31F6004D1470 /* RevRecallQuestApp.swift */,
+				84728C902C7A31F7004D1470 /* ContentView.swift */,
+				84728C922C7A31F9004D1470 /* Assets.xcassets */,
+				84728C942C7A31F9004D1470 /* Preview Content */,
+			);
+			path = RevRecallQuest;
+			sourceTree = "<group>";
+		};
+		84728C942C7A31F9004D1470 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				84728C952C7A31F9004D1470 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84728C9E2C7A31F9004D1470 /* RevRecallQuestTests */ = {
+			isa = PBXGroup;
+			children = (
+				84728C9F2C7A31F9004D1470 /* RevRecallQuestTests.swift */,
+			);
+			path = RevRecallQuestTests;
+			sourceTree = "<group>";
+		};
+		84728CA82C7A31F9004D1470 /* RevRecallQuestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84728CA92C7A31F9004D1470 /* RevRecallQuestUITests.swift */,
+				84728CAB2C7A31F9004D1470 /* RevRecallQuestUITestsLaunchTests.swift */,
+			);
+			path = RevRecallQuestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84728C8A2C7A31F6004D1470 /* RevRecallQuest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84728CAF2C7A31F9004D1470 /* Build configuration list for PBXNativeTarget "RevRecallQuest" */;
+			buildPhases = (
+				84728C872C7A31F6004D1470 /* Sources */,
+				84728C882C7A31F6004D1470 /* Frameworks */,
+				84728C892C7A31F6004D1470 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RevRecallQuest;
+			productName = RevRecallQuest;
+			productReference = 84728C8B2C7A31F6004D1470 /* RevRecallQuest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84728C9A2C7A31F9004D1470 /* RevRecallQuestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84728CB22C7A31F9004D1470 /* Build configuration list for PBXNativeTarget "RevRecallQuestTests" */;
+			buildPhases = (
+				84728C972C7A31F9004D1470 /* Sources */,
+				84728C982C7A31F9004D1470 /* Frameworks */,
+				84728C992C7A31F9004D1470 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84728C9D2C7A31F9004D1470 /* PBXTargetDependency */,
+			);
+			name = RevRecallQuestTests;
+			productName = RevRecallQuestTests;
+			productReference = 84728C9B2C7A31F9004D1470 /* RevRecallQuestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84728CA42C7A31F9004D1470 /* RevRecallQuestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84728CB52C7A31F9004D1470 /* Build configuration list for PBXNativeTarget "RevRecallQuestUITests" */;
+			buildPhases = (
+				84728CA12C7A31F9004D1470 /* Sources */,
+				84728CA22C7A31F9004D1470 /* Frameworks */,
+				84728CA32C7A31F9004D1470 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84728CA72C7A31F9004D1470 /* PBXTargetDependency */,
+			);
+			name = RevRecallQuestUITests;
+			productName = RevRecallQuestUITests;
+			productReference = 84728CA52C7A31F9004D1470 /* RevRecallQuestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84728C832C7A31F6004D1470 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					84728C8A2C7A31F6004D1470 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					84728C9A2C7A31F9004D1470 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 84728C8A2C7A31F6004D1470;
+					};
+					84728CA42C7A31F9004D1470 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 84728C8A2C7A31F6004D1470;
+					};
+				};
+			};
+			buildConfigurationList = 84728C862C7A31F6004D1470 /* Build configuration list for PBXProject "RevRecallQuest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84728C822C7A31F6004D1470;
+			productRefGroup = 84728C8C2C7A31F6004D1470 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84728C8A2C7A31F6004D1470 /* RevRecallQuest */,
+				84728C9A2C7A31F9004D1470 /* RevRecallQuestTests */,
+				84728CA42C7A31F9004D1470 /* RevRecallQuestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84728C892C7A31F6004D1470 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84728C962C7A31F9004D1470 /* Preview Assets.xcassets in Resources */,
+				84728C932C7A31F9004D1470 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84728C992C7A31F9004D1470 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84728CA32C7A31F9004D1470 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84728C872C7A31F6004D1470 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84728C912C7A31F7004D1470 /* ContentView.swift in Sources */,
+				84728C8F2C7A31F6004D1470 /* RevRecallQuestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84728C972C7A31F9004D1470 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84728CA02C7A31F9004D1470 /* RevRecallQuestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84728CA12C7A31F9004D1470 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84728CAC2C7A31F9004D1470 /* RevRecallQuestUITestsLaunchTests.swift in Sources */,
+				84728CAA2C7A31F9004D1470 /* RevRecallQuestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84728C9D2C7A31F9004D1470 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84728C8A2C7A31F6004D1470 /* RevRecallQuest */;
+			targetProxy = 84728C9C2C7A31F9004D1470 /* PBXContainerItemProxy */;
+		};
+		84728CA72C7A31F9004D1470 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84728C8A2C7A31F6004D1470 /* RevRecallQuest */;
+			targetProxy = 84728CA62C7A31F9004D1470 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		84728CAD2C7A31F9004D1470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84728CAE2C7A31F9004D1470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84728CB02C7A31F9004D1470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RevRecallQuest/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wenyan.zhao.RevRecallQuest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84728CB12C7A31F9004D1470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RevRecallQuest/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wenyan.zhao.RevRecallQuest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84728CB32C7A31F9004D1470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wenyan.zhao.RevRecallQuestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RevRecallQuest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RevRecallQuest";
+			};
+			name = Debug;
+		};
+		84728CB42C7A31F9004D1470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wenyan.zhao.RevRecallQuestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RevRecallQuest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RevRecallQuest";
+			};
+			name = Release;
+		};
+		84728CB62C7A31F9004D1470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wenyan.zhao.RevRecallQuestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RevRecallQuest;
+			};
+			name = Debug;
+		};
+		84728CB72C7A31F9004D1470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wenyan.zhao.RevRecallQuestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RevRecallQuest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84728C862C7A31F6004D1470 /* Build configuration list for PBXProject "RevRecallQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84728CAD2C7A31F9004D1470 /* Debug */,
+				84728CAE2C7A31F9004D1470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84728CAF2C7A31F9004D1470 /* Build configuration list for PBXNativeTarget "RevRecallQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84728CB02C7A31F9004D1470 /* Debug */,
+				84728CB12C7A31F9004D1470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84728CB22C7A31F9004D1470 /* Build configuration list for PBXNativeTarget "RevRecallQuestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84728CB32C7A31F9004D1470 /* Debug */,
+				84728CB42C7A31F9004D1470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84728CB52C7A31F9004D1470 /* Build configuration list for PBXNativeTarget "RevRecallQuestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84728CB62C7A31F9004D1470 /* Debug */,
+				84728CB72C7A31F9004D1470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84728C832C7A31F6004D1470 /* Project object */;
+}
